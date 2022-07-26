@@ -40,7 +40,7 @@ const Minting: NextPage = () => {
         type: "SMART_CONTRACT_EXECUTION",
         from: account,
         to: MINT_NFT_ADDRESS,
-        value: caver?.utils.convertToPeb(20, "KLAY"),
+        //value: caver?.utils.convertToPeb(20, "KLAY"),
         gas: 3000000,
         data: mintNFTContract?.methods.mintNFT().encodeABI(),
       });
@@ -64,7 +64,7 @@ const Minting: NextPage = () => {
               const imageResponse = await axios.get(tokenURI);
 
               if (imageResponse.status === 200) {
-                //setNewNFT(imageResponse.data);
+                setNewNFT(imageResponse.data);
               }
             }
           }
