@@ -7,7 +7,7 @@ import TeamCard from "./TeamCard";
 const teamCardConfig = [
   {
     name: "정희진",
-    position: "팀장. 디자인 ",
+    position: "팀장, 디자인 ",
     image: "team1.png",
     color: "blue",
     animation: "tada",
