@@ -40,6 +40,7 @@ const Minting: NextPage = () => {
         type: "SMART_CONTRACT_EXECUTION",
         from: account,
         to: MINT_NFT_ADDRESS,
+        //value: caver?.utils.convertToPeb(20, "KLAY"),
         gas: 3000000,
         data: mintNFTContract?.methods.mintNFT().encodeABI(),
       });
@@ -123,19 +124,19 @@ const Minting: NextPage = () => {
             <Image
               src={newNFT.image}
               borderRadius="lg"
-              fallbackSrc="../images/loading.png"
+              fallbackSrc="../images/notReveal.gif"
               alt="nft"
             />
           ) : (
             <Image
-              src="../images/loading.png"
+              src="../images/notReveal.gif"
               borderRadius="lg"
               alt="loading"
             />
           )}
         </Flex>
         <Flex ml={8} direction="column" minH={512} minW={300}>
-          <Text>Price : 0 Klay</Text>
+          <Text>Price : 20 Klay</Text>
           <Button
             size="lg"
             colorScheme="green"
