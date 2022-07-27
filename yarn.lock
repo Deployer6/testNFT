@@ -2147,9 +2147,15 @@
   "version" "3.1.0"
 
 "caniuse-lite@^1.0.30001332", "caniuse-lite@^1.0.30001366":
+<<<<<<< HEAD
+  "integrity" "sha512-XDgbeOHfifWV3GEES2B8rtsrADx4Jf+juKX2SICJcaUhjYBO3bR96kvEIHa15VU6ohtOhBZuPGGYGbXMRn0NCw=="
+  "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001367.tgz"
+  "version" "1.0.30001367"
+=======
   "integrity" "sha512-OY1SBHaodJc4wflDIKnlkdqWzJZd1Ls/2zbVJHBSv3AT7vgOJ58yAhd2CN4d57l2kPJrgMb7P9+N1Mhy4tNSQA=="
   "resolved" "https://registry.npmjs.org/caniuse-lite/-/caniuse-lite-1.0.30001369.tgz"
   "version" "1.0.30001369"
+>>>>>>> e824ed4c0c884f4c506675c489b9a052384d8d53
 
 "caver-js@^1.8.2":
   "integrity" "sha512-xK0vJ3+obTT5+Zmi0flcd9a87tu6u5JHGCT/4BcvtBBGkelSalpN6Ys3MNopakxmwJ47wRiRDduTzCJZkVfjRQ=="
@@ -2525,9 +2531,15 @@
     "encoding" "^0.1.13"
 
 "electron-to-chromium@^1.4.188":
+<<<<<<< HEAD
+  "integrity" "sha512-vefjEh0sk871xNmR5whJf9TEngX+KTKS3hOHpjoMpauKkwlGwtMz1H8IaIjAT/GNnX0TbGwAdmVoXCAzXf+PPg=="
+  "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.195.tgz"
+  "version" "1.4.195"
+=======
   "integrity" "sha512-WIGME0Cs7oob3mxsJwHbeWkH0tYkIE/sjkJ8ML2BYmuRcjhRl/q5kVDXG7W9LOOKwzPU5M0LBlXRq9rlSgnNlg=="
   "resolved" "https://registry.npmjs.org/electron-to-chromium/-/electron-to-chromium-1.4.199.tgz"
   "version" "1.4.199"
+>>>>>>> e824ed4c0c884f4c506675c489b9a052384d8d53
 
 "elliptic@^6.4.0", "elliptic@^6.5.3", "elliptic@^6.5.4", "elliptic@6.5.4":
   "integrity" "sha512-iLhC6ULemrljPZb+QutR5TQGB+pdW6KGD5RSegS+8sorOZT+rdQFbsQFJgvN3eRqNALqJer4oQ16YvJHlU8hzQ=="
